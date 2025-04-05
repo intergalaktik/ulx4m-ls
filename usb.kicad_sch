@@ -5,11 +5,11 @@
 	(uuid "ee6baac6-ca56-44dc-bc86-8c9f3cbc16b9")
 	(paper "A4")
 	(title_block
-		(title "ULX3S")
-		(date "2024-08-20")
-		(rev "0.0.4")
-		(company "EMARD")
-		(comment 1 "USB serial and JTAG")
+		(title "${project_name}")
+		(date "2025-04-05")
+		(rev "${project_version}")
+		(company "${project_creator}")
+		(comment 1 "${project_license}")
 		(comment 2 "License: CERN-OHL-S v2")
 	)
 	(lib_symbols

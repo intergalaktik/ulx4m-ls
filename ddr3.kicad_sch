@@ -5,10 +5,11 @@
 	(uuid "78ae69ef-f768-432c-a40e-c964c35a2792")
 	(paper "A3")
 	(title_block
-		(title "DDR3")
-		(date "2024-08-20")
-		(rev "0.0.4")
-		(comment 1 "Reference - ecp5-dc-scm")
+		(title "${project_name}")
+		(date "2025-04-05")
+		(rev "${project_version}")
+		(company "${project_creator}")
+		(comment 1 "${project_license}")
 		(comment 2 "Apache License 2.0")
 	)
 	(lib_symbols

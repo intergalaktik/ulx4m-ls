@@ -5,11 +5,11 @@
 	(uuid "499a93fa-cd8f-44a7-872b-cd504e10b111")
 	(paper "A4")
 	(title_block
-		(title "ULX4M")
-		(date "2024-08-20")
-		(rev "0.0.4")
-		(company "Intergalaktik d.o.o.")
-		(comment 1 "SDRAM memory")
+		(title "${project_name}")
+		(date "2025-04-05")
+		(rev "${project_version}")
+		(company "${project_creator}")
+		(comment 1 "${project_license}")
 		(comment 2 "License: CERN-OHL-S v2")
 	)
 	(lib_symbols

@@ -5,12 +5,11 @@
 	(uuid "1876dd7c-56e8-4d11-a76e-0d3f3f8be70a")
 	(paper "A4")
 	(title_block
-		(title "ULX4M-LS")
-		(date "2024-08-20")
-		(rev "0.0.4")
-		(company "Intergalaktik d.o.o.")
-		(comment 1 "Root sheet")
-		(comment 2 "License: CERN-OHL-S v2")
+		(title "${project_name}")
+		(date "2025-04-05")
+		(rev "${project_version}")
+		(company "${project_creator}")
+		(comment 1 "${project_license}")
 	)
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_01x01"
@@ -427,7 +426,7 @@
 	)
 	(polyline
 		(pts
-			(xy 122.682 95.25) (xy 122.682 55.372)
+			(xy 159.512 193.802) (xy 159.512 176.022)
 		)
 		(stroke
 			(width 0)
@@ -437,7 +436,7 @@
 	)
 	(polyline
 		(pts
-			(xy 122.682 55.372) (xy 100.33 55.372)
+			(xy 159.258 175.768) (xy 128.524 175.768)
 		)
 		(stroke
 			(width 0)
@@ -447,7 +446,7 @@
 	)
 	(polyline
 		(pts
-			(xy 100.33 95.25) (xy 122.682 95.25)
+			(xy 128.524 194.056) (xy 159.512 194.056)
 		)
 		(stroke
 			(width 0)
@@ -457,7 +456,7 @@
 	)
 	(polyline
 		(pts
-			(xy 100.33 55.372) (xy 100.33 95.25)
+			(xy 128.524 175.768) (xy 128.524 193.802)
 		)
 		(stroke
 			(width 0)
@@ -465,9 +464,88 @@
 		)
 		(uuid "cd09ca49-2a4a-449c-b6be-3beed10cb900")
 	)
+	(rectangle
+		(start 74.168 45.974)
+		(end 149.86 142.24)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 0 255 0 0.1)
+		)
+		(uuid 5de4e883-cf30-4ff5-8683-3ead9e05c666)
+	)
+	(text_box "${project_creator}\nLicense: ${project_license}\nYear: ${project_year}"
+		(exclude_from_sim no)
+		(at 14.986 23.876 0)
+		(size 62.738 12.192)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 158 196 255 1)
+		)
+		(effects
+			(font
+				(size 2.032 2.032)
+			)
+			(justify left top)
+		)
+		(uuid "d693869e-af95-4c3e-9e75-1193b5a4e76d")
+	)
+	(text "MechanicalDrawing"
+		(exclude_from_sim no)
+		(at 103.886 127.508 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+			)
+			(href "#12")
+		)
+		(uuid "003fa112-82ec-47c1-9bbc-eabc36ba3000")
+	)
+	(text "Page"
+		(exclude_from_sim no)
+		(at 83.566 51.308 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+				(thickness 0.762)
+				(bold yes)
+			)
+		)
+		(uuid "087741b4-37ac-4fc7-a6ac-2023677ce151")
+	)
+	(text "PowerPage"
+		(exclude_from_sim no)
+		(at 91.948 69.342 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+			)
+			(href "#2")
+		)
+		(uuid "0a3f11ba-246f-4d0b-8ed4-fca88e629e08")
+	)
+	(text "......"
+		(exclude_from_sim no)
+		(at 83.566 57.15 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+				(thickness 0.762)
+				(bold yes)
+			)
+		)
+		(uuid "133ca9d0-5524-4b2c-98d5-3f52e4f025c6")
+	)
 	(text "SDRAM (IS42S16320D)"
 		(exclude_from_sim no)
-		(at 165.862 108.966 0)
+		(at 56.642 99.822 0)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -475,9 +553,21 @@
 		)
 		(uuid "17370588-2dbe-4c34-afb9-2dd6d717d64c")
 	)
+	(text "......."
+		(exclude_from_sim no)
+		(at 139.446 136.906 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+				(thickness 0.762)
+				(bold yes)
+			)
+		)
+		(uuid "1b675bcd-ffeb-450f-8686-8a5600cb215b")
+	)
 	(text "BANK1\nSW\nDSI"
 		(exclude_from_sim no)
-		(at 164.084 81.534 0)
+		(at 54.864 72.39 0)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -485,9 +575,20 @@
 		)
 		(uuid "1eda0e7f-101a-4485-9734-b512bff12ac3")
 	)
+	(text "12"
+		(exclude_from_sim no)
+		(at 137.922 127.508 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+			)
+			(href "#12")
+		)
+		(uuid "1f83a829-9e07-4cec-931c-8db5d35a2dc9")
+	)
 	(text "3X BTN\n8X LED"
 		(exclude_from_sim no)
-		(at 137.16 96.012 0)
+		(at 27.94 86.868 0)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -495,9 +596,31 @@
 		)
 		(uuid "2166ae63-5bb8-4b5b-baaa-e0b68e706bb8")
 	)
+	(text "GPIO"
+		(exclude_from_sim no)
+		(at 83.312 74.93 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+			)
+			(href "#3")
+		)
+		(uuid "27f46742-d605-4ce3-ac5b-3384c37e99d7")
+	)
+	(text "4"
+		(exclude_from_sim no)
+		(at 139.446 81.026 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+			)
+			(href "#4")
+		)
+		(uuid "28bbabd1-1421-4017-886b-6d8856d1b4ac")
+	)
 	(text "BANK8\nFLASH (IS25LP128F)"
 		(exclude_from_sim no)
-		(at 166.37 120.142 0)
+		(at 57.15 110.998 0)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -505,9 +628,53 @@
 		)
 		(uuid "3a6a7824-afd8-4f2a-8dfa-bb846790f1ca")
 	)
+	(text "7"
+		(exclude_from_sim no)
+		(at 139.7 98.044 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+			)
+			(href "#7")
+		)
+		(uuid "3eb04edd-5fec-430f-96ea-6feb0cb7b967")
+	)
+	(text "5"
+		(exclude_from_sim no)
+		(at 139.7 86.868 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+			)
+			(href "#5")
+		)
+		(uuid "40088de5-fdde-440f-a8c1-0b082723e522")
+	)
+	(text "Flash"
+		(exclude_from_sim no)
+		(at 84.328 120.904 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+			)
+			(href "#11")
+		)
+		(uuid "431bf3ac-de69-4f60-ad36-e8de5dedd84f")
+	)
+	(text "10"
+		(exclude_from_sim no)
+		(at 137.922 114.808 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+			)
+			(href "#10")
+		)
+		(uuid "443efea9-48ea-4d9e-835d-6c7b6d7d807d")
+	)
 	(text "BANK POWER\n3V3\n2V5\n1V1/1V2\n1V35(DNP)"
 		(exclude_from_sim no)
-		(at 136.652 64.008 0)
+		(at 27.432 54.864 0)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -517,7 +684,7 @@
 	)
 	(text "ETHERNET (LAN8720A)"
 		(exclude_from_sim no)
-		(at 165.862 96.012 0)
+		(at 56.642 86.868 0)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -525,9 +692,32 @@
 		)
 		(uuid "4e73fc7c-b2cf-41cb-b26f-7b8a9db630ee")
 	)
+	(text "9"
+		(exclude_from_sim no)
+		(at 139.7 109.728 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+			)
+			(href "#9")
+		)
+		(uuid "4fda75e8-f6c0-4bda-b2c7-2bba204f9b55")
+	)
+	(text "......."
+		(exclude_from_sim no)
+		(at 139.7 57.15 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+				(thickness 0.762)
+				(bold yes)
+			)
+		)
+		(uuid "5345e918-b304-434b-bf7f-7ffebccf9674")
+	)
 	(text "BANK6\nCLK25\nUSB\nJTAG"
 		(exclude_from_sim no)
-		(at 137.16 81.534 0)
+		(at 27.94 72.39 0)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -535,9 +725,110 @@
 		)
 		(uuid "5f80387f-ff49-4cd6-9c19-68d02eb5cd2e")
 	)
+	(text "click on mouse pointer arrow on top of right toolbar\nand double-click on sheet to open"
+		(exclude_from_sim no)
+		(at 15.24 43.434 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left bottom)
+		)
+		(uuid "64468bc3-79c6-4ab7-b4c8-900614a43684")
+	)
+	(text "GPDI"
+		(exclude_from_sim no)
+		(at 83.312 86.36 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+			)
+			(href "#5")
+		)
+		(uuid "70d460ce-cf9e-44fb-8223-204dd7e68536")
+	)
+	(text "SerDes"
+		(exclude_from_sim no)
+		(at 86.614 114.808 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+			)
+			(href "#10")
+		)
+		(uuid "73506e26-bbf7-42e2-85fb-4f70c19a2fce")
+	)
+	(text "Blinkey"
+		(exclude_from_sim no)
+		(at 86.868 92.202 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+			)
+			(href "#6")
+		)
+		(uuid "788b6317-a64e-40f3-996e-9b8f3a5d59d4")
+	)
+	(text "${project_name} ${project_version} "
+		(exclude_from_sim no)
+		(at 47.752 19.304 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+				(thickness 0.762)
+				(bold yes)
+			)
+		)
+		(uuid "80601ebc-15a6-495b-8f09-bfe3cf68960c")
+	)
+	(text "11"
+		(exclude_from_sim no)
+		(at 137.922 120.904 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+			)
+			(href "#11")
+		)
+		(uuid "874fdfdb-c124-4492-8f1e-8f746052832a")
+	)
+	(text "8"
+		(exclude_from_sim no)
+		(at 139.7 103.886 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+			)
+			(href "#8")
+		)
+		(uuid "8b41c7ea-3b06-485a-a1fa-26734a416dfe")
+	)
+	(text "SDRAM"
+		(exclude_from_sim no)
+		(at 86.36 109.22 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+			)
+			(href "#9")
+		)
+		(uuid "907b5170-b992-4896-9c8a-b8c0b5632918")
+	)
+	(text "${CURRENT_DATE}"
+		(exclude_from_sim no)
+		(at 257.81 22.098 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+				(thickness 0.762)
+				(bold yes)
+			)
+		)
+		(uuid "963f4405-5180-48dc-a55a-4bc654a2015d")
+	)
 	(text "BANK0\nBANK7\nCM4 connector"
 		(exclude_from_sim no)
-		(at 164.084 64.262 0)
+		(at 54.864 55.118 0)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -545,9 +836,31 @@
 		)
 		(uuid "9908b743-4b20-4c20-902d-8ce0a036f319")
 	)
+	(text "CoverPage"
+		(exclude_from_sim no)
+		(at 91.44 63.754 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+			)
+			(href "#1")
+		)
+		(uuid "9ab5e823-7bf8-4e1c-b7e6-6323bfed6a51")
+	)
+	(text "Ethernet"
+		(exclude_from_sim no)
+		(at 88.392 97.79 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+			)
+			(href "#7")
+		)
+		(uuid "bd285eb2-c3ae-44ba-aabb-b9bef978e351")
+	)
 	(text "Mounting holes"
 		(exclude_from_sim no)
-		(at 108.712 57.15 0)
+		(at 148.59 177.8 0)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -555,9 +868,32 @@
 		)
 		(uuid "c9b5af0e-adc0-4f59-9c40-ea6ac9caed81")
 	)
+	(text "USB"
+		(exclude_from_sim no)
+		(at 82.296 80.772 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+			)
+			(href "#4")
+		)
+		(uuid "d09f4c19-61c6-471e-9560-2b7399b3543d")
+	)
+	(text "         Index"
+		(exclude_from_sim no)
+		(at 127 51.308 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+				(thickness 0.762)
+				(bold yes)
+			)
+		)
+		(uuid "d82b5994-3355-4830-9b39-c50b520b15a0")
+	)
 	(text "SERDES"
 		(exclude_from_sim no)
-		(at 137.16 120.396 0)
+		(at 27.94 111.252 0)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -565,9 +901,20 @@
 		)
 		(uuid "db500baa-6be7-403d-bb73-bc3d112b31b5")
 	)
+	(text "SDRAM FPGA"
+		(exclude_from_sim no)
+		(at 94.742 103.886 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+			)
+			(href "#8")
+		)
+		(uuid "e1ee858a-5ff1-4e66-9efe-b684394d7f90")
+	)
 	(text "BANK2\nBANK3"
 		(exclude_from_sim no)
-		(at 137.922 108.458 0)
+		(at 28.702 99.314 0)
 		(effects
 			(font
 				(size 1.524 1.524)
@@ -575,9 +922,65 @@
 		)
 		(uuid "e9ba9acf-deb5-4da6-b931-74b81a85ecf2")
 	)
+	(text "6"
+		(exclude_from_sim no)
+		(at 139.7 92.456 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+			)
+			(href "#6")
+		)
+		(uuid "ebf995ee-d6fc-43e7-b55c-59626663083c")
+	)
+	(text "1"
+		(exclude_from_sim no)
+		(at 139.446 64.008 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+			)
+			(href "#1")
+		)
+		(uuid "ee5a8fa9-ddea-48f8-95a6-f529cac3bbb7")
+	)
+	(text "......"
+		(exclude_from_sim no)
+		(at 83.312 136.906 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+				(thickness 0.762)
+				(bold yes)
+			)
+		)
+		(uuid "f07a566d-aece-41ae-88bc-1ee6f6bdacc5")
+	)
+	(text "3"
+		(exclude_from_sim no)
+		(at 139.446 75.184 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+			)
+			(href "#3")
+		)
+		(uuid "fb87c226-0714-4929-beb3-766c80dcc09d")
+	)
+	(text "2"
+		(exclude_from_sim no)
+		(at 139.446 69.596 0)
+		(effects
+			(font
+				(size 3.81 3.81)
+			)
+			(href "#2")
+		)
+		(uuid "fff96dc3-dd94-4c70-bab7-6f4ac615d35f")
+	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
-		(at 107.95 82.55 90)
+		(at 133.35 182.88 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -585,7 +988,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000058e6b981")
 		(property "Reference" "H1"
-			(at 105.41 82.55 0)
+			(at 130.81 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -593,7 +996,7 @@
 			)
 		)
 		(property "Value" "HOLE"
-			(at 107.95 80.01 90)
+			(at 133.35 180.34 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -601,7 +1004,7 @@
 			)
 		)
 		(property "Footprint" "Mounting_Holes:MountingHole_3.2mm_M3_ISO14580_Pad"
-			(at 107.95 82.55 0)
+			(at 133.35 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -610,7 +1013,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 107.95 82.55 0)
+			(at 133.35 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -618,7 +1021,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 107.95 82.55 0)
+			(at 133.35 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -640,7 +1043,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
-		(at 115.57 82.55 90)
+		(at 140.97 182.88 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -648,7 +1051,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000058e6bace")
 		(property "Reference" "H2"
-			(at 113.03 82.55 0)
+			(at 138.43 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -656,7 +1059,7 @@
 			)
 		)
 		(property "Value" "HOLE"
-			(at 115.57 80.01 90)
+			(at 140.97 180.34 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -664,7 +1067,7 @@
 			)
 		)
 		(property "Footprint" "Mounting_Holes:MountingHole_3.2mm_M3_ISO14580_Pad"
-			(at 115.57 82.55 0)
+			(at 140.97 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -673,7 +1076,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 115.57 82.55 0)
+			(at 140.97 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -681,7 +1084,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 115.57 82.55 0)
+			(at 140.97 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -703,7 +1106,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
-		(at 115.57 64.77 90)
+		(at 154.94 182.88 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -711,7 +1114,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000058e6baef")
 		(property "Reference" "H3"
-			(at 113.03 64.77 0)
+			(at 152.4 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -719,7 +1122,7 @@
 			)
 		)
 		(property "Value" "HOLE"
-			(at 115.57 62.23 90)
+			(at 154.94 180.34 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -727,7 +1130,7 @@
 			)
 		)
 		(property "Footprint" "Mounting_Holes:MountingHole_3.2mm_M3_ISO14580_Pad"
-			(at 115.57 64.77 0)
+			(at 154.94 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -736,7 +1139,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 115.57 64.77 0)
+			(at 154.94 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -744,7 +1147,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 115.57 64.77 0)
+			(at 154.94 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -766,7 +1169,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x01")
-		(at 107.95 64.77 90)
+		(at 147.32 182.88 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -774,7 +1177,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000058e6bbe9")
 		(property "Reference" "H4"
-			(at 105.41 64.77 0)
+			(at 144.78 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -782,7 +1185,7 @@
 			)
 		)
 		(property "Value" "HOLE"
-			(at 107.95 62.23 90)
+			(at 147.32 180.34 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -790,7 +1193,7 @@
 			)
 		)
 		(property "Footprint" "Mounting_Holes:MountingHole_3.2mm_M3_ISO14580_Pad"
-			(at 107.95 64.77 0)
+			(at 147.32 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -799,7 +1202,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 107.95 64.77 0)
+			(at 147.32 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -807,7 +1210,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 107.95 64.77 0)
+			(at 147.32 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -816,7 +1219,7 @@
 			)
 		)
 		(property "Note" "Leave empty"
-			(at 107.95 64.77 0)
+			(at 147.32 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -838,7 +1241,7 @@
 	)
 	(symbol
 		(lib_id "ulx4m-rescue:GND-power")
-		(at 107.95 87.63 0)
+		(at 133.35 187.96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -846,7 +1249,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000058e6bc0e")
 		(property "Reference" "#PWR02"
-			(at 107.95 93.98 0)
+			(at 133.35 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -855,7 +1258,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 107.95 91.44 0)
+			(at 133.35 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -863,7 +1266,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 107.95 87.63 0)
+			(at 133.35 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -871,7 +1274,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 107.95 87.63 0)
+			(at 133.35 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -879,7 +1282,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 107.95 87.63 0)
+			(at 133.35 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -901,7 +1304,7 @@
 	)
 	(symbol
 		(lib_id "ulx4m-rescue:GND-power")
-		(at 115.57 87.63 0)
+		(at 140.97 187.96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -909,7 +1312,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000058e6bc2e")
 		(property "Reference" "#PWR04"
-			(at 115.57 93.98 0)
+			(at 140.97 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -918,7 +1321,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 115.57 91.44 0)
+			(at 140.97 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -926,7 +1329,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 115.57 87.63 0)
+			(at 140.97 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -934,7 +1337,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 115.57 87.63 0)
+			(at 140.97 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -942,7 +1345,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 115.57 87.63 0)
+			(at 140.97 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -964,7 +1367,7 @@
 	)
 	(symbol
 		(lib_id "ulx4m-rescue:GND-power")
-		(at 115.57 69.85 0)
+		(at 154.94 187.96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -972,7 +1375,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000058e6bc56")
 		(property "Reference" "#PWR03"
-			(at 115.57 76.2 0)
+			(at 154.94 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -981,7 +1384,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 115.57 73.66 0)
+			(at 154.94 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -989,7 +1392,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 115.57 69.85 0)
+			(at 154.94 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -997,7 +1400,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 115.57 69.85 0)
+			(at 154.94 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1005,7 +1408,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 115.57 69.85 0)
+			(at 154.94 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1027,7 +1430,7 @@
 	)
 	(symbol
 		(lib_id "ulx4m-rescue:GND-power")
-		(at 107.95 69.85 0)
+		(at 147.32 187.96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1035,7 +1438,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000058e6bc72")
 		(property "Reference" "#PWR01"
-			(at 107.95 76.2 0)
+			(at 147.32 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1044,7 +1447,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 107.95 73.66 0)
+			(at 147.32 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1052,7 +1455,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 107.95 69.85 0)
+			(at 147.32 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1060,7 +1463,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 107.95 69.85 0)
+			(at 147.32 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1068,7 +1471,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 107.95 69.85 0)
+			(at 147.32 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1534,7 +1937,7 @@
 		)
 	)
 	(sheet
-		(at 152.4 54.864)
+		(at 43.18 45.72)
 		(size 27.686 18.542)
 		(stroke
 			(width 0)
@@ -1546,7 +1949,7 @@
 		)
 		(uuid "00000000-0000-0000-0000-000056ac389c")
 		(property "Sheetname" "gpio"
-			(at 152.654 56.642 0)
+			(at 43.434 47.498 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -1555,7 +1958,7 @@
 			)
 		)
 		(property "Sheetfile" "gpio.kicad_sch"
-			(at 152.4 71.374 0)
+			(at 43.18 62.23 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -1572,7 +1975,7 @@
 		)
 	)
 	(sheet
-		(at 124.46 54.864)
+		(at 15.24 45.72)
 		(size 26.67 18.542)
 		(stroke
 			(width 0)
@@ -1584,7 +1987,7 @@
 		)
 		(uuid "00000000-0000-0000-0000-000058d51cad")
 		(property "Sheetname" "power"
-			(at 124.46 56.642 0)
+			(at 15.24 47.498 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -1593,7 +1996,7 @@
 			)
 		)
 		(property "Sheetfile" "power.kicad_sch"
-			(at 124.206 71.374 0)
+			(at 14.986 62.23 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -1610,7 +2013,7 @@
 		)
 	)
 	(sheet
-		(at 124.46 90.17)
+		(at 15.24 81.026)
 		(size 26.67 11.43)
 		(stroke
 			(width 0)
@@ -1622,7 +2025,7 @@
 		)
 		(uuid "00000000-0000-0000-0000-000058d6547c")
 		(property "Sheetname" "blinkey"
-			(at 124.46 92.456 0)
+			(at 15.24 83.312 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -1631,7 +2034,7 @@
 			)
 		)
 		(property "Sheetfile" "blinkey.kicad_sch"
-			(at 124.46 99.568 0)
+			(at 15.24 90.424 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -1648,7 +2051,7 @@
 		)
 	)
 	(sheet
-		(at 152.4 74.676)
+		(at 43.18 65.532)
 		(size 27.686 14.224)
 		(stroke
 			(width 0)
@@ -1660,7 +2063,7 @@
 		)
 		(uuid "00000000-0000-0000-0000-000058d686d9")
 		(property "Sheetname" "gpdi"
-			(at 152.4 76.708 0)
+			(at 43.18 67.564 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -1669,7 +2072,7 @@
 			)
 		)
 		(property "Sheetfile" "gpdi.kicad_sch"
-			(at 152.4 86.106 0)
+			(at 43.18 76.962 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -1686,7 +2089,7 @@
 		)
 	)
 	(sheet
-		(at 124.46 74.676)
+		(at 15.24 65.532)
 		(size 26.67 14.224)
 		(stroke
 			(width 0)
@@ -1698,7 +2101,7 @@
 		)
 		(uuid "00000000-0000-0000-0000-000058d6bf46")
 		(property "Sheetname" "usb"
-			(at 124.714 76.708 0)
+			(at 15.494 67.564 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -1707,7 +2110,7 @@
 			)
 		)
 		(property "Sheetfile" "usb.kicad_sch"
-			(at 124.46 86.7922 0)
+			(at 15.24 77.6482 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -1724,7 +2127,7 @@
 		)
 	)
 	(sheet
-		(at 124.46 102.87)
+		(at 15.24 93.726)
 		(size 26.67 11.43)
 		(stroke
 			(width 0)
@@ -1736,7 +2139,7 @@
 		)
 		(uuid "00000000-0000-0000-0000-000058d6d507")
 		(property "Sheetname" "ram"
-			(at 124.46 104.648 0)
+			(at 15.24 95.504 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -1745,7 +2148,7 @@
 			)
 		)
 		(property "Sheetfile" "ram.kicad_sch"
-			(at 124.46 112.268 0)
+			(at 15.24 103.124 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -1762,7 +2165,7 @@
 		)
 	)
 	(sheet
-		(at 152.4 115.57)
+		(at 43.18 106.426)
 		(size 27.94 9.398)
 		(stroke
 			(width 0)
@@ -1774,7 +2177,7 @@
 		)
 		(uuid "00000000-0000-0000-0000-000058d913ec")
 		(property "Sheetname" "flash"
-			(at 152.654 117.856 0)
+			(at 43.434 108.712 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -1783,7 +2186,7 @@
 			)
 		)
 		(property "Sheetfile" "flash.kicad_sch"
-			(at 152.4 122.936 0)
+			(at 43.18 113.792 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -1800,7 +2203,7 @@
 		)
 	)
 	(sheet
-		(at 124.46 115.57)
+		(at 15.24 106.426)
 		(size 26.67 9.398)
 		(stroke
 			(width 0)
@@ -1812,7 +2215,7 @@
 		)
 		(uuid "00000000-0000-0000-0000-000058da7327")
 		(property "Sheetname" "serdes"
-			(at 124.714 117.348 0)
+			(at 15.494 108.204 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -1821,7 +2224,7 @@
 			)
 		)
 		(property "Sheetfile" "serdes.kicad_sch"
-			(at 124.714 122.936 0)
+			(at 15.494 113.792 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -1838,7 +2241,7 @@
 		)
 	)
 	(sheet
-		(at 152.4 102.616)
+		(at 43.18 93.472)
 		(size 27.94 11.684)
 		(stroke
 			(width 0)
@@ -1850,7 +2253,7 @@
 		)
 		(uuid "00000000-0000-0000-0000-000061e7db84")
 		(property "Sheetname" "SDRAM"
-			(at 152.654 105.156 0)
+			(at 43.434 96.012 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -1859,7 +2262,7 @@
 			)
 		)
 		(property "Sheetfile" "ddr3.kicad_sch"
-			(at 152.4 112.268 0)
+			(at 43.18 103.124 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -1876,7 +2279,7 @@
 		)
 	)
 	(sheet
-		(at 152.146 90.17)
+		(at 42.926 81.026)
 		(size 27.94 11.43)
 		(stroke
 			(width 0)
@@ -1888,7 +2291,7 @@
 		)
 		(uuid "00000000-0000-0000-0000-0000633e0b89")
 		(property "Sheetname" "ethernet"
-			(at 152.4 92.202 0)
+			(at 43.18 83.058 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -1897,7 +2300,7 @@
 			)
 		)
 		(property "Sheetfile" "ethernet.kicad_sch"
-			(at 152.4 98.806 0)
+			(at 43.18 89.662 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -1909,6 +2312,43 @@
 			(project "ulx4m"
 				(path "/1876dd7c-56e8-4d11-a76e-0d3f3f8be70a"
 					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 15.24 116.332)
+		(size 55.88 5.08)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 194 0 0 1.0000)
+		)
+		(uuid "8268a317-4816-47ec-8e3f-c8503d3483c1")
+		(property "Sheetname" "MechanicalDrawings"
+			(at 15.24 118.364 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mechanical.kicad_sch"
+			(at 15.494 119.634 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ulx4m"
+				(path "/1876dd7c-56e8-4d11-a76e-0d3f3f8be70a"
+					(page "12")
 				)
 			)
 		)

@@ -5,10 +5,11 @@
 	(uuid "d0138886-50bb-4892-bc39-944d2606aae3")
 	(paper "A3")
 	(title_block
-		(title "Ethernet")
-		(date "2024-08-20")
-		(rev "0.0.4")
-		(comment 1 "Reference - ESP32-Ethgate")
+		(title "${project_name}")
+		(date "2025-04-05")
+		(rev "${project_version}")
+		(company "${project_creator}")
+		(comment 1 "${project_license}")
 		(comment 2 "License: CERN-OHL-S v2")
 	)
 	(lib_symbols

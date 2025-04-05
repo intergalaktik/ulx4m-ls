@@ -5,11 +5,11 @@
 	(uuid "cf6e4a48-f9d6-4c05-98ba-053886002b71")
 	(paper "A4")
 	(title_block
-		(title "ULX3S")
-		(date "2024-08-20")
-		(rev "0.0.4")
-		(company "EMARD")
-		(comment 1 "SPI flash")
+		(title "${project_name}")
+		(date "2025-04-05")
+		(rev "${project_version}")
+		(company "${project_creator}")
+		(comment 1 "${project_license}")
 		(comment 2 "License: CERN-OHL-S v2")
 	)
 	(lib_symbols
