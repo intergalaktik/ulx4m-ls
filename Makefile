@@ -5,7 +5,7 @@
 # pip3 install kikit
 # pip3 install --upgrade kikit
 # pip3 show kikit
-# Version: 0.7
+# Version: 1.6
 
 # unstable version (commandline options not compatible)
 # pip3 install git+https://github.com/yaqwsx/KiKit@master
