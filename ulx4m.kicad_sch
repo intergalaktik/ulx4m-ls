@@ -983,9 +983,9 @@
 		(at 133.35 182.88 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "00000000-0000-0000-0000-000058e6b981")
 		(property "Reference" "H1"
 			(at 130.81 182.88 0)
@@ -1029,6 +1029,24 @@
 				(hide yes)
 			)
 		)
+		(property "DNP_COPY" ""
+			(at 133.35 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PLACE" "DNP"
+			(at 133.35 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "db431b17-0b48-4323-a9da-d810ff5a6827")
 		)
@@ -1046,9 +1064,9 @@
 		(at 140.97 182.88 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "00000000-0000-0000-0000-000058e6bace")
 		(property "Reference" "H2"
 			(at 138.43 182.88 0)
@@ -1092,6 +1110,24 @@
 				(hide yes)
 			)
 		)
+		(property "DNP_COPY" ""
+			(at 140.97 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PLACE" "DNP"
+			(at 140.97 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "46f860ee-e91c-4fa0-a74c-9e807a106335")
 		)
@@ -1109,9 +1145,9 @@
 		(at 154.94 182.88 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "00000000-0000-0000-0000-000058e6baef")
 		(property "Reference" "H3"
 			(at 152.4 182.88 0)
@@ -1155,6 +1191,24 @@
 				(hide yes)
 			)
 		)
+		(property "DNP_COPY" ""
+			(at 154.94 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PLACE" "DNP"
+			(at 154.94 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "eef88ce8-637f-4c3b-aa46-508e572a489b")
 		)
@@ -1172,9 +1226,9 @@
 		(at 147.32 182.88 90)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "00000000-0000-0000-0000-000058e6bbe9")
 		(property "Reference" "H4"
 			(at 144.78 182.88 0)
@@ -1219,6 +1273,24 @@
 			)
 		)
 		(property "Note" "Leave empty"
+			(at 147.32 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DNP_COPY" ""
+			(at 147.32 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PLACE" "DNP"
 			(at 147.32 182.88 0)
 			(effects
 				(font
@@ -1563,9 +1635,9 @@
 		(at 171.45 181.61 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "00000000-0000-0000-0000-00006306aac5")
 		(property "Reference" "FI1"
 			(at 173.609 180.4416 0)
@@ -1612,6 +1684,24 @@
 				(hide yes)
 			)
 		)
+		(property "DNP_COPY" ""
+			(at 171.45 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PLACE" "DNP"
+			(at 171.45 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project ""
 				(path "/1876dd7c-56e8-4d11-a76e-0d3f3f8be70a"
@@ -1626,9 +1716,9 @@
 		(at 171.45 186.055 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "00000000-0000-0000-0000-00006306afde")
 		(property "Reference" "FI2"
 			(at 173.609 184.8866 0)
@@ -1675,6 +1765,24 @@
 				(hide yes)
 			)
 		)
+		(property "DNP_COPY" ""
+			(at 171.45 186.055 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PLACE" "DNP"
+			(at 171.45 186.055 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project ""
 				(path "/1876dd7c-56e8-4d11-a76e-0d3f3f8be70a"
@@ -1689,9 +1797,9 @@
 		(at 171.45 190.5 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "00000000-0000-0000-0000-00006306c005")
 		(property "Reference" "FI3"
 			(at 173.609 189.3316 0)
@@ -1738,6 +1846,24 @@
 				(hide yes)
 			)
 		)
+		(property "DNP_COPY" ""
+			(at 171.45 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PLACE" "DNP"
+			(at 171.45 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project ""
 				(path "/1876dd7c-56e8-4d11-a76e-0d3f3f8be70a"
@@ -1752,9 +1878,9 @@
 		(at 163.83 181.61 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "00000000-0000-0000-0000-000063079398")
 		(property "Reference" "FI4"
 			(at 165.989 180.4416 0)
@@ -1801,6 +1927,24 @@
 				(hide yes)
 			)
 		)
+		(property "DNP_COPY" ""
+			(at 163.83 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PLACE" "DNP"
+			(at 163.83 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project ""
 				(path "/1876dd7c-56e8-4d11-a76e-0d3f3f8be70a"
@@ -1815,9 +1959,9 @@
 		(at 163.83 186.055 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "00000000-0000-0000-0000-0000630796cf")
 		(property "Reference" "FI5"
 			(at 165.989 184.8866 0)
@@ -1864,6 +2008,24 @@
 				(hide yes)
 			)
 		)
+		(property "DNP_COPY" ""
+			(at 163.83 186.055 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PLACE" "DNP"
+			(at 163.83 186.055 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project ""
 				(path "/1876dd7c-56e8-4d11-a76e-0d3f3f8be70a"
@@ -1878,9 +2040,9 @@
 		(at 163.83 190.5 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "00000000-0000-0000-0000-000063079865")
 		(property "Reference" "FI6"
 			(at 165.989 189.3316 0)
@@ -1919,6 +2081,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 163.83 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DNP_COPY" ""
+			(at 163.83 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PLACE" "DNP"
 			(at 163.83 190.5 0)
 			(effects
 				(font

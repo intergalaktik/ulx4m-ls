@@ -10757,6 +10757,24 @@
 				(hide yes)
 			)
 		)
+		(property "DNP_COPY" ""
+			(at 91.44 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PLACE" ""
+			(at 91.44 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "A10"
 			(uuid "c6541a47-6504-405f-8398-2bce8ed8b573")
 		)
@@ -11959,6 +11977,24 @@
 				(hide yes)
 			)
 		)
+		(property "DNP_COPY" ""
+			(at 182.88 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PLACE" ""
+			(at 182.88 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c412da9b-bf34-47aa-ac31-af0977328cfc")
 		)
@@ -12018,6 +12054,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 182.88 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DNP_COPY" ""
+			(at 182.88 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PLACE" ""
 			(at 182.88 58.42 0)
 			(effects
 				(font
@@ -12093,6 +12147,24 @@
 				(hide yes)
 			)
 		)
+		(property "DNP_COPY" ""
+			(at 182.88 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PLACE" ""
+			(at 182.88 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1a81161d-e15f-452d-ab7b-fd1f63d50b4c")
 		)
@@ -12152,6 +12224,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 182.88 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DNP_COPY" ""
+			(at 182.88 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PLACE" ""
 			(at 182.88 68.58 0)
 			(effects
 				(font
@@ -12227,6 +12317,24 @@
 				(hide yes)
 			)
 		)
+		(property "DNP_COPY" ""
+			(at 182.88 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PLACE" ""
+			(at 182.88 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "86ae709d-258f-4b47-9284-b21c3015a674")
 		)
@@ -12286,6 +12394,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 182.88 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DNP_COPY" ""
+			(at 182.88 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PLACE" ""
 			(at 182.88 78.74 0)
 			(effects
 				(font
@@ -12361,6 +12487,24 @@
 				(hide yes)
 			)
 		)
+		(property "DNP_COPY" ""
+			(at 182.88 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PLACE" ""
+			(at 182.88 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b2824ec9-2ddf-4bac-8d77-3cd1e2582bdc")
 		)
@@ -12420,6 +12564,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 182.88 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DNP_COPY" ""
+			(at 182.88 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PLACE" ""
 			(at 182.88 88.9 0)
 			(effects
 				(font
@@ -12495,6 +12657,24 @@
 				(hide yes)
 			)
 		)
+		(property "DNP_COPY" ""
+			(at 232.41 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PLACE" ""
+			(at 232.41 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "fb633801-83d5-400a-9e93-ed7a7f83bb24")
 		)
@@ -12554,6 +12734,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 232.41 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DNP_COPY" ""
+			(at 232.41 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PLACE" ""
 			(at 232.41 58.42 0)
 			(effects
 				(font
@@ -12629,6 +12827,24 @@
 				(hide yes)
 			)
 		)
+		(property "DNP_COPY" ""
+			(at 232.41 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PLACE" ""
+			(at 232.41 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "73fa2447-90e2-4629-8f33-cc1d1dd658d3")
 		)
@@ -12688,6 +12904,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 232.41 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DNP_COPY" ""
+			(at 232.41 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PLACE" ""
 			(at 232.41 68.58 0)
 			(effects
 				(font
@@ -12763,6 +12997,24 @@
 				(hide yes)
 			)
 		)
+		(property "DNP_COPY" ""
+			(at 232.41 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PLACE" ""
+			(at 232.41 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a5bd0421-5a8c-4ba7-998a-9fe91434361a")
 		)
@@ -12822,6 +13074,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 232.41 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DNP_COPY" ""
+			(at 232.41 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PLACE" ""
 			(at 232.41 78.74 0)
 			(effects
 				(font
@@ -12897,6 +13167,24 @@
 				(hide yes)
 			)
 		)
+		(property "DNP_COPY" ""
+			(at 232.41 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PLACE" ""
+			(at 232.41 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1d254330-4efa-45c5-aa61-b162c1f2db22")
 		)
@@ -12956,6 +13244,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 232.41 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DNP_COPY" ""
+			(at 232.41 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PLACE" ""
 			(at 232.41 88.9 0)
 			(effects
 				(font
@@ -13031,6 +13337,24 @@
 				(hide yes)
 			)
 		)
+		(property "DNP_COPY" ""
+			(at 182.88 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PLACE" ""
+			(at 182.88 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4f46c098-ddd6-499c-a715-f3cc9fe1bf17")
 		)
@@ -13094,6 +13418,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 185.42 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DNP_COPY" ""
+			(at 185.42 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PLACE" ""
 			(at 185.42 97.79 0)
 			(effects
 				(font
@@ -13239,6 +13581,24 @@
 				(hide yes)
 			)
 		)
+		(property "DNP_COPY" ""
+			(at 233.68 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PLACE" ""
+			(at 233.68 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "86451c95-ca4a-4590-95aa-b3dfda23da33")
 		)
@@ -13302,6 +13662,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 234.95 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DNP_COPY" ""
+			(at 234.95 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PLACE" ""
 			(at 234.95 97.79 0)
 			(effects
 				(font
@@ -13581,6 +13959,24 @@
 				(hide yes)
 			)
 		)
+		(property "DNP_COPY" ""
+			(at 212.09 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PLACE" ""
+			(at 212.09 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "58c933d4-3003-4066-85cb-e053935242d1")
 		)
@@ -13644,6 +14040,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 212.09 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DNP_COPY" ""
+			(at 212.09 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PLACE" ""
 			(at 212.09 114.3 0)
 			(effects
 				(font
@@ -13723,6 +14137,24 @@
 				(hide yes)
 			)
 		)
+		(property "DNP_COPY" ""
+			(at 212.09 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PLACE" ""
+			(at 212.09 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "fb3d0cef-06bc-4694-98e2-6d382ed73d33")
 		)
@@ -13786,6 +14218,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 212.09 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DNP_COPY" ""
+			(at 212.09 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PLACE" ""
 			(at 212.09 119.38 0)
 			(effects
 				(font
@@ -13885,9 +14335,9 @@
 		(at 67.31 66.04 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "00000000-0000-0000-0000-00006226f065")
 		(property "Reference" "TP_D?"
 			(at 61.595 66.04 0)
@@ -13934,6 +14384,24 @@
 				(hide yes)
 			)
 		)
+		(property "DNP_COPY" ""
+			(at 67.31 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PLACE" "DNP"
+			(at 67.31 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "06d2dbf3-c950-4ce1-b91f-21877f09d2ce")
 		)
@@ -13955,9 +14423,9 @@
 		(at 115.57 66.04 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "00000000-0000-0000-0000-000062286908")
 		(property "Reference" "TP_C?"
 			(at 121.285 66.04 0)
@@ -13996,6 +14464,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 115.57 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DNP_COPY" ""
+			(at 115.57 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PLACE" "DNP"
 			(at 115.57 66.04 0)
 			(effects
 				(font
@@ -14064,6 +14550,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 67.31 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DNP_COPY" ""
+			(at 67.31 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PLACE" ""
 			(at 67.31 55.88 0)
 			(effects
 				(font
@@ -14143,6 +14647,24 @@
 				(hide yes)
 			)
 		)
+		(property "DNP_COPY" ""
+			(at 67.31 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PLACE" ""
+			(at 67.31 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "56832257-05bb-4c7c-bf2c-c45305d58fda")
 		)
@@ -14206,6 +14728,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 67.945 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DNP_COPY" ""
+			(at 67.945 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PLACE" ""
 			(at 67.945 78.74 0)
 			(effects
 				(font
@@ -14285,6 +14825,24 @@
 				(hide yes)
 			)
 		)
+		(property "DNP_COPY" ""
+			(at 67.945 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PLACE" ""
+			(at 67.945 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "cdb86aa5-2e88-4a81-b16c-4977ec422301")
 		)
@@ -14348,6 +14906,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 67.945 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DNP_COPY" ""
+			(at 67.945 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PLACE" ""
 			(at 67.945 88.9 0)
 			(effects
 				(font
@@ -14427,6 +15003,24 @@
 				(hide yes)
 			)
 		)
+		(property "DNP_COPY" ""
+			(at 114.935 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PLACE" ""
+			(at 114.935 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8dd44d97-acc6-445c-a85d-4cb42eb82de8")
 		)
@@ -14490,6 +15084,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 114.935 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DNP_COPY" ""
+			(at 114.935 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PLACE" ""
 			(at 114.935 58.42 0)
 			(effects
 				(font
@@ -14569,6 +15181,24 @@
 				(hide yes)
 			)
 		)
+		(property "DNP_COPY" ""
+			(at 114.935 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PLACE" ""
+			(at 114.935 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1879c8b7-1a46-4bbb-ac49-7771cb91d64e")
 		)
@@ -14632,6 +15262,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 114.935 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DNP_COPY" ""
+			(at 114.935 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PLACE" ""
 			(at 114.935 81.28 0)
 			(effects
 				(font
@@ -14711,6 +15359,24 @@
 				(hide yes)
 			)
 		)
+		(property "DNP_COPY" ""
+			(at 114.935 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PLACE" ""
+			(at 114.935 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4eb7f69d-5d28-4e8b-b432-1b653475b16c")
 		)
@@ -14774,6 +15440,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 82.55 122.555 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DNP_COPY" ""
+			(at 82.55 122.555 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PLACE" ""
 			(at 82.55 122.555 0)
 			(effects
 				(font
@@ -14853,6 +15537,24 @@
 				(hide yes)
 			)
 		)
+		(property "DNP_COPY" ""
+			(at 85.725 122.555 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PLACE" ""
+			(at 85.725 122.555 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2362204b-a150-490d-ab8f-2cfe85a66751")
 		)
@@ -14916,6 +15618,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 91.44 122.555 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DNP_COPY" ""
+			(at 91.44 122.555 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PLACE" ""
 			(at 91.44 122.555 0)
 			(effects
 				(font
@@ -14995,6 +15715,24 @@
 				(hide yes)
 			)
 		)
+		(property "DNP_COPY" ""
+			(at 94.615 122.555 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PLACE" ""
+			(at 94.615 122.555 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "de4dbaf6-a81e-4530-a0a7-7ec9e5159458")
 		)
@@ -15066,6 +15804,24 @@
 				(hide yes)
 			)
 		)
+		(property "DNP_COPY" ""
+			(at 100.33 122.555 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PLACE" ""
+			(at 100.33 122.555 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7d9c977f-16fd-48bf-8649-64f5693a3300")
 		)
@@ -15129,6 +15885,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 103.505 122.555 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DNP_COPY" ""
+			(at 103.505 122.555 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PLACE" ""
 			(at 103.505 122.555 0)
 			(effects
 				(font
@@ -15274,6 +16048,24 @@
 				(hide yes)
 			)
 		)
+		(property "DNP_COPY" ""
+			(at 144.78 121.285 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PLACE" ""
+			(at 144.78 121.285 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "73aa3c27-b3ae-45e2-8921-e096ae3f6672")
 		)
@@ -15406,6 +16198,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 130.81 121.285 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DNP_COPY" ""
+			(at 130.81 121.285 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PLACE" ""
 			(at 130.81 121.285 0)
 			(effects
 				(font

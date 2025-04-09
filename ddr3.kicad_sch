@@ -2527,6 +2527,24 @@
 				(hide yes)
 			)
 		)
+		(property "DNP_COPY" ""
+			(at 200.66 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PLACE" ""
+			(at 200.66 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ec9a88ff-bbb2-44da-b6a5-f61b834efe84")
 		)
@@ -2734,6 +2752,24 @@
 			)
 		)
 		(property "MPN" "CX0603MRX7R8BB223"
+			(at 214.63 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DNP_COPY" ""
+			(at 214.63 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PLACE" ""
 			(at 214.63 180.34 0)
 			(effects
 				(font
@@ -2957,6 +2993,24 @@
 				(hide yes)
 			)
 		)
+		(property "DNP_COPY" ""
+			(at 222.25 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PLACE" ""
+			(at 222.25 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4f3b2454-c850-41e0-8244-ff89093b845d")
 		)
@@ -3172,6 +3226,24 @@
 				(hide yes)
 			)
 		)
+		(property "DNP_COPY" ""
+			(at 229.87 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PLACE" ""
+			(at 229.87 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0beac2ca-e683-499e-8390-3b3e72325a92")
 		)
@@ -3379,6 +3451,24 @@
 			)
 		)
 		(property "MPN" "CX0603MRX7R8BB223"
+			(at 237.49 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DNP_COPY" ""
+			(at 237.49 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PLACE" ""
 			(at 237.49 180.34 0)
 			(effects
 				(font
@@ -3719,6 +3809,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 208.915 116.205 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DNP_COPY" ""
+			(at 208.915 116.205 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PLACE" ""
 			(at 208.915 116.205 0)
 			(effects
 				(font

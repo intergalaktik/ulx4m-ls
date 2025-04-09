@@ -1796,13 +1796,13 @@
           "group_by": false,
           "label": "Datasheet",
           "name": "Datasheet",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
           "label": "Footprint",
           "name": "Footprint",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -1818,14 +1818,14 @@
         },
         {
           "group_by": false,
-          "label": "#",
-          "name": "${ITEM_NUMBER}",
+          "label": "Exclude from Board",
+          "name": "${EXCLUDE_FROM_BOARD}",
           "show": false
         },
         {
           "group_by": false,
-          "label": "Datasheet2",
-          "name": "Datasheet2",
+          "label": "Exclude from Simulation",
+          "name": "${EXCLUDE_FROM_SIM}",
           "show": false
         },
         {
@@ -2187,6 +2187,36 @@
           "label": "Description",
           "name": "Description",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "DNP_COPY",
+          "name": "DNP_COPY",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Exclude from BOM",
+          "name": "${EXCLUDE_FROM_BOM}",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Datasheet2",
+          "name": "Datasheet2",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PLACE",
+          "name": "PLACE",
+          "show": true
         }
       ],
       "filter_string": "",
@@ -2279,7 +2309,17 @@
     [
       "00000000-0000-0000-0000-000058d913ec",
       "flash"
+    ],
+    [
+      "8268a317-4816-47ec-8e3f-c8503d3483c1",
+      "MechanicalDrawings"
     ]
   ],
-  "text_variables": {}
+  "text_variables": {
+    "project_creator": "Intergalaktik d.o.o.",
+    "project_license": "CERN-OHL-S v2",
+    "project_name": "ULX4M-LS",
+    "project_version": "v004",
+    "project_year": "2025"
+  }
 }
