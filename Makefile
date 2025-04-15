@@ -18,7 +18,8 @@ DESTINATION = plot/panel
 BOARDSFILES = $(addprefix $(DESTINATION)/, $(BOARDS:=.kicad_pcb))
 GERBERS = $(addprefix $(DESTINATION)/, $(BOARDS:=-panel-gerber))
 ZIP = $(addprefix $(DESTINATION)/, $(BOARDS:=-panel-gerber.zip))
-KIKIT = ~/.local/bin/kikit
+KIKIT = ./venv/bin/kikit
+
 
 # help panelizer locate board
 # this design has a single board
